@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- mouse click events -->
+    <button onclick="hello()">click </button>  <!-- click(onclick) -->
+    <p ondblclick="hello()">click</p>  <!-- double click(ondblclick) -->
+    <p oncontextmenu="hello()">click</p>  <!--on right click-->
+
+    <!-- mouse events  -->
+    <!-- after you touch with mouse cursor this event will happen -->
+    <!-- <p onmouseenter="hello()">click</p>  -->
+    <!--after you take cursor out from the button this will trigger-->
+    <!-- <p onmouseout="hello()"> click</p>  -->
+    
+    <!-- keyboard events  -->
+    <!-- onkeypress -->
+
+    <!-- windows event only works on body tag -->
+    <!-- <body onscroll="hello()"></body> -->
+    <!-- <body onresize="hello()"></body> -->
+
+
+</body>
+<script>
+    function hello(){
+        document.write("hello");
+    }
+</script>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var arr=[10,"harry",true,null];
+    for(var a=0;a<arr.length;a++){
+        document.write(arr[a]+"<br>");
+    }
+
+    var ary= new Array(); //new way declare array in js
+    //sorting in js
+    arr.sort();
+    document.write(arr+"<br><br>");
+
+    //reverse in array
+    arr.reverse();
+    document.write(arr+"<br><br>");
+
+    //pop and push
+    //pop deletes the last index value from the array
+    //push includes a value to the array at last index
+    arr.pop();
+    document.write(arr+"<br><br>");
+
+    arr.push("sanjay");
+    document.write(arr+"<br><br>");
+
+    //shift and unshift
+    //shift deletes the first index value and makes the second index first index
+    //unshift fits a new value to the array at first index
+    document.write(arr+"<br><br>");
+    arr.shift();
+    document.write(arr+"<br><br>");
+    arr.unshift("suar");
+    document.write(arr+"<br><br>");
+</script>
+</html>

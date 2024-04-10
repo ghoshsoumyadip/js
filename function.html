@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function hello(){
+        document.write("hello");
+    }
+    hello();
+    document.write("<br>"); //used to break the line
+    document.write("<br>");
+
+    //addition using function
+    function add(a=2,b=4){ //we can give a default value to the parameter
+        document.write(a+b+"<br>"); 
+    }
+    add();// here i didn't give any value that's why it will add the default value
+    add(10, 15); //function call
+    document.write("<br>");
+    document.write("<br>");
+    //function with return value
+
+    function ad(c,d){
+        return c+d;
+    }
+    var e = ad(2,3);
+    document.write(e);
+
+
+</script>
+</html>
